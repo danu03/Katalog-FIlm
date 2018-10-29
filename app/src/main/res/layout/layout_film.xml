@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin"
+    >
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/poster_film"
+            android:layout_width="80dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/judul_film"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="judul"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="overview"
+            android:id="@+id/overview_film"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+    </LinearLayout>
+
+</LinearLayout>
