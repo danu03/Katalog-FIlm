@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:hint="Cari film disini"
+            android:hint="@string/search"
             android:id="@+id/field_search"
             android:layout_alignParentStart="true"
             android:layout_width="250dp"
@@ -30,14 +30,14 @@
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/btn_cari"
-            android:text="Cari"
+            android:text="@string/cari"
             android:layout_alignParentEnd="true"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
     </RelativeLayout>
     <TextView
         android:id="@+id/status_list"
-        android:text="Discovery"
+        android:text="@string/discover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <ListView

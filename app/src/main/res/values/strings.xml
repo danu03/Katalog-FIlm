@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Katalog Film</string>
+    <string name="search">Cari Film Disini</string>
+    <string name="cari">Cari</string>
+    <string name="overview">overview</string>
+    <string name="discover">discover</string>
+    <string name="judul">judul</string>
 
 </resources>

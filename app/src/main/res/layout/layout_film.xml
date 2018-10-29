@@ -25,7 +25,7 @@
         <TextView
             android:id="@+id/judul_film"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:text="judul"
+            android:text="@string/judul"
             android:layout_marginBottom="16dp"
             android:layout_width="wrap_content"
             android:textColor="#000"
@@ -35,7 +35,7 @@
             android:textColor="#000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="overview"
+            android:text="@string/overview"
             android:id="@+id/overview_film"
             android:ellipsize="end"
             android:maxLines="2"
